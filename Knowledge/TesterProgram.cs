@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Knowledge
+﻿namespace Knowledge
 {
     class TesterProgram
     {
