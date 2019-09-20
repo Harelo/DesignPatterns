@@ -2,7 +2,7 @@
 
 namespace Knowledge
 {
-    class Program
+    class TesterProgram
     {
         static void Main(string[] args)
         {
