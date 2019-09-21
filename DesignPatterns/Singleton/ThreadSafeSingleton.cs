@@ -4,10 +4,12 @@ namespace DesignPatterns.Singleton
 {
     public sealed class ThreadSafeSingleton
     {
-        private static Singleton instance = null;
+        private static ThreadSafeSingleton instance = null;
         private static readonly object TheLock = new object();
 
-        public static Singleton GetInstance
+        private ThreadSafeSingleton() { }
+
+        public static ThreadSafeSingleton GetInstance
         {
             get
             {
@@ -18,7 +20,7 @@ namespace DesignPatterns.Singleton
                 lock (TheLock)
                 {
                     if (instance == null)
-                        instance = new Singleton();
+                        instance = new ThreadSafeSingleton();
                     return instance;
                 }
             }

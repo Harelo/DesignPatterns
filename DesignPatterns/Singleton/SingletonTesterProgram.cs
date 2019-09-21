@@ -2,8 +2,9 @@
 {
     class SingletonTesterProgram
     {
-        private static void RunTest()
+        public static void RunTest()
         {
+            Singleton.Whatever a = new Singleton.Whatever();
             Singleton fromEmployee = Singleton.GetInstance;
             fromEmployee.PrintDetails("From employee");
 

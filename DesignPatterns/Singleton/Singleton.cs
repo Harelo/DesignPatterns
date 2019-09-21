@@ -13,6 +13,8 @@ namespace DesignPatterns.Singleton
     public sealed class Singleton
     {
         private static Singleton instance = null;
+
+        private Singleton() { }
         public static Singleton GetInstance
         {
             get
@@ -27,5 +29,6 @@ namespace DesignPatterns.Singleton
         {
             Console.WriteLine(msg);
         }
+
     }
 }
