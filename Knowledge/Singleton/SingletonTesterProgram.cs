@@ -1,8 +1,8 @@
-﻿namespace Knowledge
+﻿namespace Knowledge.Singleton
 {
     class SingletonTesterProgram
     {
-        static void Main(string[] args)
+        private static void RunTest()
         {
             Singleton fromEmployee = Singleton.GetInstance;
             fromEmployee.PrintDetails("From employee");

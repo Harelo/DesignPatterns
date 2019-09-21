@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Knowledge
+namespace Knowledge.Singleton
 {
     public sealed class ThreadSafeSingleton
     {
