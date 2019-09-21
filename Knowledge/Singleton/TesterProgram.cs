@@ -1,6 +1,6 @@
 ﻿namespace Knowledge
 {
-    class TesterProgram
+    class SingletonTesterProgram
     {
         static void Main(string[] args)
         {
