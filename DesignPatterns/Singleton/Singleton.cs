@@ -29,6 +29,5 @@ namespace DesignPatterns.Singleton
         {
             Console.WriteLine(msg);
         }
-
     }
 }

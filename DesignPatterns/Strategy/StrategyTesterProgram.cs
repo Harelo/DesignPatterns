@@ -6,9 +6,9 @@ namespace DesignPatterns.Strategy
 {
     class StrategyTesterProgram
     {
-        public static void Main(string[] args)
+        public static void RunTest()
         {
-            Student newStudent = new Student() { Name = "Alex", Age = 18, Class = "Math", GradeStrategy = new FGradeStrategy() };
+            Student newStudent = new Student() { Name = "Alex", Age = 18, Class = "Math", GradeStrategy = new BGradeStrategy() };
             newStudent.PrintGrade();
         }
     }
