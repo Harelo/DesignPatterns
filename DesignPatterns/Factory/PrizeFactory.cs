@@ -9,14 +9,11 @@ namespace DesignPatterns.Factory
     //Makes it easier to make changes 
     public class PrizeFactory
     {
-        public static Prize makePrize()
+        public static Prize makePrize(int prizeID)
         {
-            Console.WriteLine("Randomly picking prize!");
-            Random rnd = new Random();
-            int prizeValue = rnd.Next(1, 4);
             Prize thePrize = null;
 
-            switch (prizeValue)
+            switch (prizeID)
             {
                 case 1:
                     thePrize = new PlatinumPrize();

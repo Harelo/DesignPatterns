@@ -8,7 +8,10 @@ namespace DesignPatterns.Factory
     {
         public static void RunTest()
         {
-            Prize thePrize = PrizeFactory.makePrize();
+            Console.WriteLine("Randomly picking prize!");
+            Random rnd = new Random();
+            int prizeID = rnd.Next(1, 4);
+            Prize thePrize = PrizeFactory.makePrize(prizeID);
 
             if (thePrize != null)
                 printWinMessage(thePrize);
