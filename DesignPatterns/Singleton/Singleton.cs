@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Knowledge.Singleton
+namespace DesignPatterns.Singleton
 {
     //Explanation about this can be found here: https://www.youtube.com/watch?v=YGGg9ecy0K4
     //A class that should only have one instance.

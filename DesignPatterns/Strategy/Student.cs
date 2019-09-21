@@ -1,9 +1,9 @@
 ﻿using System;
-using Knowledge.Singleton;
+using DesignPatterns.Singleton;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Knowledge.Strategy
+namespace DesignPatterns.Strategy
 {
     public class Student
     {

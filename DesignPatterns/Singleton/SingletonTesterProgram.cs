@@ -1,4 +1,4 @@
-﻿namespace Knowledge.Singleton
+﻿namespace DesignPatterns.Singleton
 {
     class SingletonTesterProgram
     {

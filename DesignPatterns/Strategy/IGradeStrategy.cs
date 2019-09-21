@@ -1,4 +1,4 @@
-﻿namespace Knowledge.Strategy
+﻿namespace DesignPatterns.Strategy
 {
     public interface IGradeStrategy
     {

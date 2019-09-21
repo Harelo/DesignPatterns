@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Knowledge.Strategy
+namespace DesignPatterns.Strategy
 {
-    class AGradeStrategy : IGradeStrategy
+    class FGradeStrategy : IGradeStrategy
     {
         void IGradeStrategy.PrintGradeResult()
         {
-            Console.WriteLine("Excellent work! You got an A!");
+            Console.WriteLine("Oh no, you failed the class and got an F!");
         }
     }
 }
