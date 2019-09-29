@@ -5,7 +5,7 @@ using System;
 
 namespace DesignPatterns.AbstractFactory
 {
-    public class Test
+    public class AbstractFactoryTesterProgram
     {
         public static void RunTest()
         {
