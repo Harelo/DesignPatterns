@@ -18,14 +18,14 @@ namespace DesignPatterns.AbstractFactory.ConcreteFactory
         public override IWeapon Weapon() => new AR15();
     }
 
-    public class KiaKillcanto : IWeaponizedCarFactory
+    public class KiaKillcantoFactory : IWeaponizedCarFactory
     {
         public ICar Car() => new Kia();
         public IEngine Engine() => new N65();
         public IWeapon Weapon() => new AK47();
     }
 
-    public class KiaDeathos : IWeaponizedCarFactory
+    public class KiaDeathosFactory : IWeaponizedCarFactory
     {
         public ICar Car() => new Kia();
         public IEngine Engine() => new N55();

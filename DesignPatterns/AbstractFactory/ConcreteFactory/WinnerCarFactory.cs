@@ -20,9 +20,9 @@ namespace DesignPatterns.AbstractFactory.ConcreteFactory
             else if (winner.Age < 30 && winner.Age > 18)
             {
                 if (winner.Gender == 1)
-                    theCarFactory = new KiaDeathos();
+                    theCarFactory = new KiaDeathosFactory();
                 else if (winner.Gender == 2)
-                    theCarFactory = new KiaKillcanto();
+                    theCarFactory = new KiaKillcantoFactory();
             }
 
             return theCarFactory;
