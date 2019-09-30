@@ -11,7 +11,7 @@ namespace DesignPatterns.Prototype
 
         public override Prototype Clone()
         {
-            return (Sheep)DeepClone(this);
+            return DeepClone(this);
         }
     }
 
@@ -22,7 +22,7 @@ namespace DesignPatterns.Prototype
 
         public override Prototype Clone()
         {
-            return (Cow)DeepClone(this);
+            return DeepClone(this);
         }
     }
 }
