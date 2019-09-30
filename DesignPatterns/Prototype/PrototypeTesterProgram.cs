@@ -6,7 +6,7 @@ namespace DesignPatterns.Prototype
 {
     public class PrototypeTesterProgram
     {
-        public static void Main()
+        public static void RunTest()
         {
             Sheep sally = new Sheep() { Name = "Sally" };
             Sheep clonedSheep = (Sheep)sally.Clone();
