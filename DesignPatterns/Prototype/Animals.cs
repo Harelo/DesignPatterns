@@ -7,7 +7,7 @@ namespace DesignPatterns.Prototype
     [Serializable]
     public class Sheep : AnimalPrototype
     {
-        public override AnimalPrototype makeCopy()
+        public override AnimalPrototype Clone()
         {
             return (Sheep)DeepClone(this);
         }
@@ -16,7 +16,7 @@ namespace DesignPatterns.Prototype
     [Serializable]
     public class Cow : AnimalPrototype
     {
-        public override AnimalPrototype makeCopy()
+        public override AnimalPrototype Clone()
         {
             return (Cow)DeepClone(this);
         }

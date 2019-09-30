@@ -6,11 +6,10 @@ namespace DesignPatterns.Prototype
 {
     public class PrototypeTesterProgram
     {
-        public static void RunTest()
+        public static void Main()
         {
-            PrototypeFactory animalMaker = new PrototypeFactory();
             Sheep sally = new Sheep() { Name = "Sally" };
-            Sheep clonedSheep = (Sheep)sally.makeCopy();
+            Sheep clonedSheep = (Sheep)sally.Clone();
 
             Console.WriteLine(sally.Name);
             Console.WriteLine(clonedSheep.Name);

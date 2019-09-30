@@ -6,6 +6,6 @@ namespace DesignPatterns.Prototype
     public abstract class AnimalPrototype : DeepCloneable<AnimalPrototype>
     {
         public string Name { get; set; }
-        public abstract AnimalPrototype makeCopy();
+        public abstract AnimalPrototype Clone();
     }
 }
