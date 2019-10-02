@@ -6,7 +6,7 @@ namespace DesignPatterns.Decorator
 {
     public class DecoratorTesterProgram
     {
-        public static void Main(string[] args)
+        public static void RunTest()
         { 
             Pizza basicPizza = new TomatoSauce(new Mozzarella(new PlainPizza()));
 
