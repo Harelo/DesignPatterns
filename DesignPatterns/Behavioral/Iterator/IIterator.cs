@@ -10,7 +10,6 @@ namespace DesignPatterns.Iterator
         object Next();
         object IsDone();
         object CurrentItem();
-
         int CurrentIndex();
     }
 }
